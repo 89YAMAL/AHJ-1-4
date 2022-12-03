@@ -1,0 +1,21 @@
+.game-goblin {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 500px;
+  }
+  
+  .game-goblin div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+    background-color: aquamarine;
+  }
+  
+  .gameover {
+    padding: 20px;
+  }
