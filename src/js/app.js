@@ -1,7 +1,4 @@
-import Field from './field';
-import Game from './game';
+import Input from './Input';
 
-const field = new Field();
-field.init();
-const game = new Game(field);
-game.init();
+const inp = new Input('input', 'button');
+inp.start();
